@@ -19,7 +19,7 @@ This repository contains all codes (in MATLAB) and the Dataset necessary for rep
 
 - All MATLAB codes are located in the main directory.
 
-Features can be extracted from raw data samples simply by running the FeatureExtraction routine. These features can be extracted in two modes; in the first mode each IMF is chopped into 10 sub-frames and statistical features are extracted over each sub-frame, while in the second mode statistical features are extracted over whole frame, without sub-framing. Note that, features are already extracted and located in the “Features” folder; feature file for the first mode is divided into smaller zip files. However one can reproduce (re-extract) these features, or apply this feature extraction method on any other dataset, by running FeatureExtraction.m code.
+Features can be extracted from raw data samples simply by running the FeatureExtraction routine. These features can be extracted in two modes; in the first mode (used in the proposed LSTM-based method) each IMF is chopped into 10 sub-frames and statistical features are extracted over each sub-frame, while in the second mode (used in the classical methods) statistical features are extracted over whole frame, without sub-framing. Note that, features are already extracted and located in the “Features” folder; feature file for the first mode is divided into smaller zip files (to use these extracted features, first unzip the zipped files). However one can reproduce (re-extract) these features, or apply this feature extraction method on any other dataset, by running FeatureExtraction.m code.
 
 The ceemd.m is a third-party code used for decomposing signals into its IMFs using the CEEMD algorithm.
 
