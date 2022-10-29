@@ -7,9 +7,9 @@ Wind turbines are increasingly expanding worldwide and Doubly-Fed Induction Gene
 
 ## About the repository
 
-This repository contains all codes (in MATLAB) and the Dataset necessary for reproducing the results reported in the following paper:
+This repository contains all codes (in MATLAB) and the Dataset necessary for reproducing the results reported in our [paper](http://doi.org/10.1049/elp2.12262). Please cite this work (and the experimental data available in this repository) as:
 
-    Ghasem Alipoor, Seyed Jafar Mirbagheri, Seyed Mohammad Mahdi Moosavi, and Sergio M. A. Cruz, “Incipient Detection of Stator Inter‐Turn Short‐Circuit Faults in a DFIG Using Deep Learning,” Accepted for publication in the IET Electric Power Applications, DOI: 10.1049/elp2.12262.
+    Alipoor, G., et al.: Incipient detection of stator inter-turn short-circuit faults in a Doubly-Fed Induction Generator using deep learning. IET Electr. Power Appl. 1– 12 (2022). https://doi.org/10.1049/elp2.12262.
 
 - The Dataset folder contains raw experimental data, whose description is provided in the paper.
 
